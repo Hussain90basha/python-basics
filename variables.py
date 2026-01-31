@@ -27,3 +27,8 @@ print(type(num_servers))
 server = "Ansible"
 print(type(server))
 print(server)
+
+is_prod = False # Boolean
+print(type(is_prod))
+
+
