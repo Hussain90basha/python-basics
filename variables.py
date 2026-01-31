@@ -31,4 +31,17 @@ print(server)
 is_prod = False # Boolean
 print(type(is_prod))
 
+a = 20
+b = 10
+total = a + b # 30
+sub = a - b # 10
+multi = a * b # 200
+division = a / b # 2.0
+print(division)
+
+integer_division = a // b # 2
+print(integer_division)
+remainder = a % b # 0
+print(remainder)
+
 
