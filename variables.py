@@ -17,5 +17,13 @@ comment
 
 num_servers = 10 # Integer
 print(num_servers)
-CONST_PI = 3.14
+CONST_PI = 3.14 # Float
+print(type(CONST_PI))
 
+num_servers = 15
+print(num_servers)
+print(type(num_servers))
+
+server = "Ansible"
+print(type(server))
+print(server)
