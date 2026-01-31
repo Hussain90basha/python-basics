@@ -51,6 +51,10 @@ print(servers)
 servers = servers[::-1]
 print(servers)
 
+servers = [1, 5, 8, 0, 3, 2, 6]
+servers.sort()
+print(servers)
+
 
 
 
