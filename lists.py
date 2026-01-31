@@ -52,8 +52,14 @@ servers = servers[::-1]
 print(servers)
 
 servers = [1, 5, 8, 0, 3, 2, 6]
-servers.sort()
-print(servers)
+# servers.sort()
+server_1 = sorted(servers)
+print(servers, server_1)
+
+servers = ["172.10.12.1", "172.10.12.2", True, 123, 123.45, 123.456]
+servers_1 = servers.copy()
+servers_1.remove(123)
+print(servers, servers_1)
 
 
 
