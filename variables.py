@@ -1,1 +1,21 @@
-first_variables = 10
+num_servers = 10 # This is an inline comment
+# This is comment
+a = 10
+
+# Multi line string 
+"""
+This is an 
+sample
+comment
+"""
+
+# Normal string
+"Hello World"
+'Hello World'
+'Today\'s weather is nice'
+"Today's weather is nice"
+
+num_servers = 10 # Integer
+print(num_servers)
+CONST_PI = 3.14
+
