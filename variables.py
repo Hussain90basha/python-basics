@@ -44,7 +44,7 @@ print(integer_division)
 remainder = a % b # 0
 print(remainder)
 a = 2
-b =3
-power = b ** a
+b = 3
+power = b ** a # 9   ** indicates square root
 print(power)
 
