@@ -43,5 +43,8 @@ integer_division = a // b # 2
 print(integer_division)
 remainder = a % b # 0
 print(remainder)
-
+a = 2
+b =3
+power = b ** a
+print(power)
 
