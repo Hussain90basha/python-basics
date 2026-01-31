@@ -22,3 +22,27 @@ simple_slice= servers[-1:-4:-1]
 print(simple_slice)
 
 print("length of list:", len(simple_slice))
+
+print("Before modify:", servers)
+servers[-3] = 1234 # Inplace operation
+print("After modification:", servers)
+
+print("list of operation:", dir(servers))
+"""
+['append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
+"""
+servers = ["172.10.12.1", "172.10.12.2", True, 123, 123.45, 123.456]
+print("Before:", servers)
+servers.append(False)
+print("After:", servers)
+servers.append(["a", "b"])
+print("After append:", servers, len(servers))
+# Multi indexing
+# print(servers[-1][0])
+servers.extend(["c", "d"])
+print("After extend:", servers, len(servers))
+
+
+
+
+
