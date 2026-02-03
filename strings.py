@@ -1,4 +1,4 @@
-sample = "Hello, how are you doing"
+sample = "Hello, how are you doing?"
 sample_1 = "abc" # ("a", "b", "c")
 print(sample[0])
 # sample[0] = h
@@ -11,3 +11,11 @@ print(dir(sample))
 """
 print(sample.casefold())
 print(sample.center(100, "#"))
+
+# Reverse string
+print(sample[::-1])
+print(tuple(sample_1), list(sample_1))
+
+sample = "Hello, how are you doing?"
+print(sample.split(" "))
+print("#".join(sample.split(" ")))
