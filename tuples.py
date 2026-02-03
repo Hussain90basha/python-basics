@@ -2,4 +2,16 @@ t = ()
 t1 = tuple()
 
 sample = ("172.10.12.1", "172.10.12.2", True, 123, 123.45, 123.456)
-print(type(sample), sample)
+print(type(sample), sample) 
+
+# tuple is immutable
+
+print(sample[0])
+# sample[0] = (12)
+# print(sample)
+print(sample[0:2])
+print(sample[-1])
+
+env_list = ("DEV", "QA", "PRE-PROD", "PROD")
+
+print(dir(tuple))
