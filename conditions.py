@@ -1,10 +1,12 @@
 environment = "PROD"
 change_ticket = False
 
-if environment == "PROD":
+environment = environment.casefold()
+
+if environment == "prod":
     change_ticket = True
     print("Please provide a change ticket")
-elif environment == "Staging":
+elif environment == "staging":
     print("Welcome to staging environment")    
 else:
     print("Please login with your crendentials")    
