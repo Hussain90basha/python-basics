@@ -15,3 +15,10 @@ print(sample[-1])
 env_list = ("DEV", "QA", "PRE-PROD", "PROD")
 
 print(dir(tuple))
+"""
+['count', 'index']
+"""
+
+sample = (1, 2, 3, 4, 4, 5, 6, 6)
+print(sample.count(6), sample.count(15))
+print(sample.index(5))
