@@ -19,3 +19,6 @@ print(tuple(sample_1), list(sample_1))
 sample = "Hello, how are you doing?"
 print(sample.split(" "))
 print("#".join(sample.split(" ")))
+
+# concatenation: joining 2 string
+print("a" + "#" + "b") # "ab"
