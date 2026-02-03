@@ -16,3 +16,5 @@ print(sample)
 
 sample = {("a", "b"): 1, 'b': 2}
 print(sample)
+
+print(dir(dict))
