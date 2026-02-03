@@ -17,4 +17,16 @@ print(sample)
 sample = {("a", "b"): 1, 'b': 2}
 print(sample)
 
-print(dir(dict))
+# print(dir(dict))
+"""
+['clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values']
+
+"""
+
+print(sample.keys(), sample.values(), sample.items())
+
+sample_list = [(('a', 'b'), 1), ('b', 2)]
+# type casting
+
+sample_dict = dict(sample_list)
+print(sample_dict)
