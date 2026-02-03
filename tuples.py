@@ -22,3 +22,11 @@ print(dir(tuple))
 sample = (1, 2, 3, 4, 4, 5, 6, 6)
 print(sample.count(6), sample.count(15))
 print(sample.index(5))
+
+
+# type casting : Data type conversation
+sample = ("172.10.12.1", "172.10.12.2", True, 123, 123.45, 123.456)
+sample_1 = list(sample)
+print(type(sample_1))
+sample_2 = tuple(sample_1)
+print(type(sample_2))
