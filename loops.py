@@ -37,4 +37,5 @@ print(ele)
 print(list(range(5)))    
 
 for idx in range(len(sample)):
-    print(sample[idx])
+    ele = sample[idx]
+    print(idx, ele)
