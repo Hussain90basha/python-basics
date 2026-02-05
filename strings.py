@@ -22,3 +22,6 @@ print("#".join(sample.split(" ")))
 
 # concatenation: joining 2 string
 print("a" + "#" + "b") # "ab"
+
+# How do you print a file path
+print("E:\Devops\daws-86s\hussain\python-basics\strings.py")
