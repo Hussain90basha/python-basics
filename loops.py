@@ -47,4 +47,7 @@ for val, idx in enumerate(sample):
 
 # tuple unpacking
 # a, b = (1, 2)
-# print(a, b)    
+# print(a, b)  
+  
+# while loop can be used when we know when to end
+# for loop can be used when we don't know when to end
