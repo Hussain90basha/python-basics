@@ -25,8 +25,8 @@ while idx < len(sample):
 # print(1 in sample)
 # print("server1" in sample)   
 
-# idx = iterable
-# sample = iterator
+# idx = iterator
+# sample = iterable
 
 for ele in sample:
     print(ele) 
@@ -39,3 +39,12 @@ print(list(range(5)))
 for idx in range(len(sample)):
     ele = sample[idx]
     print(idx, ele)
+
+print (enumerate(sample))
+for val, idx in enumerate(sample):
+    print(val, idx)    
+
+
+# tuple unpacking
+# a, b = (1, 2)
+# print(a, b)    
