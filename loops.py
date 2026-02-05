@@ -1,4 +1,4 @@
-sample = ["server1", "server2", "server3", "server4"]
+
 
 # for, while
 # continue, break
@@ -12,3 +12,15 @@ while value < 10:
         continue
     print(value) 
     value = value + 1
+
+sample = ["server1", "server2", "server3", "server4"]
+
+idx = 0
+
+while idx < len(sample):
+    print(sample[idx])
+    idx += 1 # idx = idx + 1
+
+# in -> membership operator (checks whether that element is present or not)
+print(1 in sample)
+print("server1" in sample)    
