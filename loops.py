@@ -51,3 +51,7 @@ for val, idx in enumerate(sample):
   
 # while loop can be used when we know when to end
 # for loop can be used when we don't know when to end
+
+# consider a log file with n number of lines with w no: of words
+# if both n as well w value is know, then we go for "while loop"
+# if n and w are unknown then we go for "for loop"
