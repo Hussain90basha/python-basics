@@ -20,3 +20,19 @@ When we specify data type in function but if we give different data type when pa
 def abc(a:int, b:float) -> float:
     return a + b
 print(abc(1, 2.0))
+
+def calc(a, b, operation):
+    if operation == "add":
+        return a + b
+    if operation == "sub":
+        return a - b
+    if operation == "mult":
+        return a * b
+    if operation == "div":
+        return a % b
+
+values = tuple(input("Enter 2 numbers: "))
+operation = input("Enter operation to perform(add, sub, mul, div): ")
+print(values)
+print(map(int, values))
+# res = calc(a, b, operation)
